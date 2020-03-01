@@ -4,5 +4,5 @@ echo "Hello, World";
 
 echo "create conflict";
 
-echo "edit in branch";
+echo "edit on master";
 
