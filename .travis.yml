@@ -1,0 +1,13 @@
+language: php
+php:
+- 7.1.33
+
+before_install:
+install:
+before_script:
+script:
+after_success:
+after_failure:
+after_script:
+deploy:
+after_deploy:
