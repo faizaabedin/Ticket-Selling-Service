@@ -1,0 +1,72 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Java",
+            "type": "java",
+            "request": "launch",
+            "stopOnEntry": true,
+            "jdkPath": "${env:JAVA_HOME}/bin",
+            "cwd": "${fileDirname}",
+            "startupClass": "${fileBasenameNoExtension}",
+            "classpath": [
+                ".",
+                "${fileDirname}"
+            ],
+            "args": [
+                "currentUserFile.inp",
+                "availableTicketFile.inp",
+                "login1.inp",
+                "./outputsActual/login1.atf"
+            ]
+        },
+        {
+            "name": "Java Console App",
+            "type": "java",
+            "request": "launch",
+            "stopOnEntry": true,
+            "jdkPath": "${env:JAVA_HOME}/bin",
+            "cwd": "${fileDirname}",
+            "startupClass": "${fileBasenameNoExtension}",
+            "classpath": [
+                ".",
+                "${fileDirname}"
+            ],
+            "externalConsole": true,
+            "args": [
+                "currentUserFile.inp",
+                "availableTicketFile.inp",
+                "login1.inp",
+                "./outputsActual/login1.atf"
+            ]
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch) - Current File",
+            "request": "launch",
+            "mainClass": "${file}",
+            "args": [
+                "currentUserFile.inp",
+                "availableTicketFile.inp",
+                "login1.inp",
+                "./outputsActual/login1.atf"
+            ]
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-main<src_e5a665a1>",
+            "request": "launch",
+            "mainClass": "main",
+            "projectName": "src_e5a665a1",
+            "args": [
+                "currentUserFile.inp",
+                "availableTicketFile.inp",
+                "login1.inp",
+                "./outputsActual/login1.atf"
+            ]
+        }
+    ]
+}
